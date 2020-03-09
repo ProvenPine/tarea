@@ -1,0 +1,76 @@
+body{
+    background-color: rgb(191, 216, 192);
+    text-justify: auto;
+    font-size: 1.2em;
+    width: 70%;
+    height: 70%;
+    text-align: center;
+    margin: 0 auto;
+}
+p{
+    margin: auto;
+    width: 50%;
+}
+h1{
+
+    font-style: italic;
+}
+
+#capitulos:hover{
+    font-size: 1.3em;
+    color: red;
+}
+#temas:hover{
+    font-size: 1.3em;
+    color:blue;
+}
+table{
+    margin: auto;
+    width: 25em;
+    border-style: solid;
+    border-collapse: collapse;
+}
+td{
+    border-style: solid;
+    border-collapse: collapse;
+}
+tr:nth-child(odd){
+    background-color: lightsteelblue;
+}
+tr:nth-child(even){
+    background-color: powderblue;
+}
+#cabecera{
+    
+    background-color: rgb(75, 75, 75);
+}
+table ol{
+    list-style-type: upper-roman;
+}
+#protagonista{
+    border-style: solid;
+    width: 240px;
+}
+#indice{
+    margin: auto;
+    width: 10em;
+    border-style: solid;
+    border-width: thin;
+    border-color: lightskyblue;
+    background-color: rgba(135, 206, 250, 0.349);
+}
+#natIcon{
+    width: 1em;
+}
+#gustos{
+    margin: auto;
+    width: 20em;
+    border-style: solid;
+    border-width: thin;
+    border-color: navy;
+    background-color: lightcoral;
+}
+#gustos :last-child{
+    margin: auto;
+    
+}
