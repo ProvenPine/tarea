@@ -63,14 +63,26 @@ table ol{
     width: 1em;
 }
 #gustos{
+    padding-bottom: .7em;
     margin: auto;
+    margin-top: 1em;
     width: 20em;
     border-style: solid;
     border-width: thin;
     border-color: navy;
     background-color: lightcoral;
 }
-#gustos :last-child{
-    margin: auto;
     
+}
+#checki{
+    position: fixed;
+    bottom: 7.5em;
+    left: 10em;
+
+}
+#checkin{
+    position: fixed;
+    bottom: 6em;
+    left: 10em;
+
 }
