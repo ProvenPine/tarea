@@ -6,6 +6,7 @@ body{
     height: 70%;
     text-align: center;
     margin: 0 auto;
+    padding-bottom: 3em;
 }
 p{
     margin: auto;
@@ -54,9 +55,7 @@ table ol{
 #indice{
     margin: auto;
     width: 10em;
-    border-style: solid;
-    border-width: thin;
-    border-color: lightskyblue;
+  border: solid thin lightblue;
     background-color: rgba(135, 206, 250, 0.349);
 }
 #natIcon{
@@ -67,23 +66,34 @@ table ol{
     margin: auto;
     margin-top: 1em;
     width: 20em;
-    border-style: solid;
-    border-width: thin;
-    border-color: navy;
+    border: thin solid navy;
     background-color: lightcoral;
+}
+#gustos h4{
+    font-family: 'Times New Roman', Times, serif
+    
 }
     
 
 #checki{
     position: fixed;
     bottom: 7.5em;
-    left: 10em;
+    left: 5em;
 
 }
 #checkin{
     position: fixed;
     bottom: 6em;
-    left: 10em;
+    left: 5em;
 
+}
+#login{
+    text-align: left;
+    width: 270px;
+    background-color: white;
+    border: black thin solid;
+    margin: auto;
+    margin-top: 2em;
+    padding: 1em;
 }
 
